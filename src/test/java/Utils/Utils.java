@@ -10,7 +10,7 @@ public class Utils {
         try {
             //URL url = new URL("https://hooks.slack.com/services/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");
             //hook prueba
-            URL url = new URL("https://hooks.slack.com/services/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");
+            URL url = new URL("https://hooks.slack.com/services/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");
             HttpURLConnection http = (HttpURLConnection)url.openConnection();
             http.setRequestMethod("POST");
             http.setDoOutput(true);
