@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Appium">
+    <test name="Appium" enabled="true">
+        <parameter name="pagina" value="AE"></parameter>
+        <parameter name="nota" value="https://www.americatv.com.pe/al-fondo-hay-sitio/alessia-decidio-no-viajar-y-tuvo-emotivo-reencuentro-jimmy-noticia-143395"></parameter>
+        <classes>
+            <class name="steps.Interna_Ads_Player_Step">
+                <methods>
+                    <include name="Inicio"></include>
+                    <include name="ingresoALaPaginaDeEnLaNotaDe"></include>
+                    <include name="terminaDeCargaLaPaginaPorCompleto"></include>
+                    <include name="validoLaPublicidadEnNotaInternaDeVideo"></include>
+                    <include name="cierroLaPagina"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Appium2" enabled="true">
+        <parameter name="pagina" value="AN"></parameter>
+        <parameter name="nota" value="https://www.americatv.com.pe/noticias/actualidad/betssy-chavez-hoy-trasladada-lima-que-cumpla-18-meses-prision-preventiva-n476758"></parameter>
+        <classes>
+            <class name="steps.Interna_Ads_Player_Step">
+                <methods>
+                    <include name="Inicio"></include>
+                    <include name="ingresoALaPaginaDeEnLaNotaDe"></include>
+                    <include name="terminaDeCargaLaPaginaPorCompleto"></include>
+                    <include name="validoLaPublicidadEnNotaInternaDeVideo"></include>
+                    <include name="cierroLaPagina"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Appium3" enabled="true">
+        <parameter name="pagina" value="AD"></parameter>
+        <parameter name="nota" value="https://www.americatv.com.pe/deportes/seleccion/gianluca-lapadula-tengo-solo-objetivo-clasificar-al-mundial-n437568"></parameter>
+        <classes>
+            <class name="steps.Interna_Ads_Player_Step">
+                <methods>
+                    <include name="Inicio"></include>
+                    <include name="ingresoALaPaginaDeEnLaNotaDe"></include>
+                    <include name="terminaDeCargaLaPaginaPorCompleto"></include>
+                    <include name="validoLaPublicidadEnNotaInternaDeVideo"></include>
+                    <include name="cierroLaPagina"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Appium4" enabled="true">
+        <parameter name="pagina" value="CN"></parameter>
+        <parameter name="nota" value="https://canaln.pe/actualidad/betssy-chavez-hoy-trasladada-lima-que-cumpla-18-meses-prision-preventiva-n463208"></parameter>
+        <classes>
+            <class name="steps.Interna_Ads_Player_Step">
+                <methods>
+                    <include name="Inicio"></include>
+                    <include name="ingresoALaPaginaDeEnLaNotaDe"></include>
+                    <include name="terminaDeCargaLaPaginaPorCompleto"></include>
+                    <include name="validoLaPublicidadEnNotaInternaDeVideo"></include>
+                    <include name="cierroLaPagina"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
